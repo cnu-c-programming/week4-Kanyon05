@@ -8,8 +8,9 @@ int main() {
         else
             logger("odd");
 
-        return 0;
+    
     }
+    return 0;
 }
 
 
