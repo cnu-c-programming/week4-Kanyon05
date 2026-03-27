@@ -6,10 +6,10 @@ void my_print(char type, void* x){
             printf("%c\n", *(char*)x);
             break;
         case 'D':
-            printf("%d\n", *(int*)x);
+            printf("%d\n", *(char*)x);
             break;
         case 'S':
-            printf("%s\n", *(char**)x);
+            printf("%s\n", (char*)x);
             break;
         default:
     }
